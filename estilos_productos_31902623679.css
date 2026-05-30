@@ -1,0 +1,18 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f3f4f6; }
+.navbar_31902623679 { background-color: #111827; display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; }
+.logo_31902623679 { color: #10b981; font-size: 24px; font-weight: bold; }
+.navbar_31902623679 ul { list-style: none; margin: 0; padding: 0; display: flex; }
+.navbar_31902623679 ul li { margin-left: 20px; }
+.navbar_31902623679 ul li a { color: #ffffff; text-decoration: none; }
+.navbar_31902623679 ul li a.active_31902623679 { color: #10b981; border-bottom: 2px solid #10b981; }
+
+.main-content_31902623679 { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+.titulo-seccion_31902623679 { text-align: center; margin-bottom: 30px; }
+.grid-productos_31902623679 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
+.item-producto_31902623679 { background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; }
+.imagen-box_31902623679 { background-color: #f3f4f6; font-size: 40px; padding: 20px 0; border-radius: 6px; margin-bottom: 10px; }
+.precio_31902623679 { font-size: 18px; font-weight: bold; color: #047857; }
+.btn-comprar_31902623679 { background-color: #10b981; color: white; border: none; padding: 10px; border-radius: 4px; cursor: pointer; width: 100%; font-weight: bold; }
+
+.footer_31902623679 { background-color: #111827; color: #9ca3af; text-align: center; padding: 20px; margin-top: 60px; }
+@media (max-width: 768px) { .navbar_31902623679 { flex-direction: column; gap: 15px; } .grid-productos_31902623679 { grid-template-columns: 1fr; } }
